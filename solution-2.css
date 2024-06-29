@@ -1,0 +1,19 @@
+body {
+    font-family: monospace;
+}
+
+label {
+    font-weight: bold;
+}
+
+#number-el {
+    border-radius: 2px;
+    border: 2px #000000 solid; 
+    padding: 5px;
+    width: 50px;
+}
+
+#display-el {
+    font-weight: bold;
+    font-size: 20px;
+}
