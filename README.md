@@ -1,6 +1,6 @@
-# TITTLE : WEEK 1 CODE LAB CHALLENGES
+# TITTLE: WEEK 1 CODE LAB CHALLENGES
 
-# DESCRIPTION : THIS REPOSITORY CONTAINS THE SOLUTIONS FOR THE CODE LAB CHALLENGES
+# DESCRIPTION: THIS REPOSITORY CONTAINS THE SOLUTIONS FOR THE CODE LAB CHALLENGES
 
 # CHALLENGE 1:
 
@@ -54,7 +54,7 @@ This project is open source and available under the MIT License.
 
 # CHALLENGE 2
 
-  Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+  Write a program that takes the speed of a car as input e.g: 80. If the speed is less than 70, it should print “Ok." Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
    > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
@@ -105,9 +105,7 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
 - https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
-
-- Links to an external site.  Links to an - external site.Links to an - external site.
-
+- 
 - www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
 # Net Salary Calculator
