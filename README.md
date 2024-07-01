@@ -62,43 +62,81 @@ This project is open source and available under the MIT License.
 
    > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
-# Student Grading System
+ # Speed Demerit Points Calculator
 
-This web application provides a simple way to calculate and display student grades based on user input. The grading is determined using a standard grading scale.
+This project calculates and displays demerit points based on the speed entered by a user. If the speed exceeds the set speed limit, demerit points are awarded according to the speed difference. If the speed exceeds the limit by a large margin, the license is marked as suspended.
 
-# Features
-Dynamic Grading: Grades are calculated and displayed immediately as the user inputs a grade.
-Standard Grading Scale: Grades are determined based on the following ranges:
+## Table of Contents
 
-A: Above 79
-B: 60 to 79
-C: 50 to 60
-D: 41 to 49
-E: 40 or below
+- [Features](#features)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Files](#files)
+- [How It Works](#how-it-works)
+- [Contributing](#contributing)
+- [License](#license)
 
-# Files
-1. index.html: Contains the HTML structure for the application.
-2. styles.css: Contains the CSS styles for the application.
-3. app.js: Contains the JavaScript code for the grading logic.
+## Features
 
-# Requirements
+- Calculates demerit points based on the speed entered by the user.
+- Displays the status (`"Ok"` if within the limit, `"Point: x"` for slight violations, or `"License suspended"` for severe violations).
+- Updates the result in real-time as the user inputs the speed.
 
-- A modern web browser to run the application.
-- Basic knowledge of HTML, CSS, and JavaScript.
+
+
+# Speed Demerit Points Calculator
+
+This project calculates and displays demerit points based on the speed entered by a user. If the speed exceeds the set speed limit, demerit points are awarded according to the speed difference. If the speed exceeds the limit by a large margin, the license is marked as suspended.
+
+## Table of Contents
+
+- [Features](#features)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Files](#files)
+- [How It Works](#how-it-works)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Calculates demerit points based on the speed entered by the user.
+- Displays the status (`"Ok"` if within the limit, `"Point: x"` for slight violations, or `"License suspended"` for severe violations).
+- Updates the result in real-time as the user inputs the speed.
+
+## Setup
+
+
+# Open the Project:
+
+Open the index.html file in your web browser to use the calculator.
 
 # Usage
-1. Open the Application: Open index.html in a web browser.
-2. Input Grade: Enter the grade into the input field.
-3. View Grade: The corresponding letter grade will be displayed immediately.
+Enter Speed: Input the speed in the designated field.
+View Results: The display will automatically show the demerit points or the suspension status.
+# Example
+Enter 70 to see "Ok".
 
-# How to Extend
-- Custom Grading Scales: Modify the grading ranges in the - - studentGradeGenerator function to match different grading standards.
-- Additional Feedback: Include more detailed feedback or suggestions based on the grade.
-- UI Improvements: Enhance the UI with more sophisticated styles or additional interactive elements.
+Enter 75 to see "Point: 1".
+
+Enter 130 to see "License suspended".
+
+# Files
+1. index.html: The main HTML file with input and output fields.
+2. script.js: Contains the JavaScript logic to calculate demerit points.
+3. style.css (optional): Contains any custom styles for the project.
+
+# How It Works
+
+The user inputs a speed in the number-el input field.
+The pointsGenerator function calculates the difference between the entered speed and the speed limit.
+Based on the speed difference, the function updates the display-el element with the appropriate message.
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 # License
-This project is open source and available under the MIT License.
 
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 # CHALLENGE 3
