@@ -17,9 +17,13 @@ Dynamic Grading: Grades are calculated and displayed immediately as the user inp
 Standard Grading Scale: Grades are determined based on the following ranges:
 
 A: Above 79
+
 B: 60 to 79
+
 C: 50 to 60
+
 D: 41 to 49
+
 E: 40 or below
 
 # Files
